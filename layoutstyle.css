@@ -1,0 +1,96 @@
+h1 {
+    background-color: pink;
+}
+#id1 {
+    background-color: rgb(179, 255, 0);
+}
+div#div1 {
+    background-color: aqua;
+}
+span#span1 {
+    background-color: rgb(198, 137, 255);
+}
+p#id2 {
+    background-color: rgb(255, 80, 80);
+}
+span#un1 {
+    background-color: rgb(255, 251, 0);
+}
+
+/*BLOCK*/
+h2#h1 {
+    background-color: pink;
+    display: block;
+}
+#id3 {
+    background-color: rgb(179, 255, 0);
+    display: block;
+}
+div#div2 {
+    background-color: aqua;
+    display: block;
+}
+span#span2 {
+    background-color: rgb(198, 137, 255);
+    display: block;
+}
+p#id4 {
+    background-color: rgb(255, 80, 80);
+    display: block;
+}
+span#un2 {
+    background-color: rgb(255, 251, 0);
+    display: block;
+}
+
+/*INLINE*/
+h2#h2 {
+    background-color: pink;
+    display: inline;
+}
+#id5 {
+    background-color: rgb(179, 255, 0);
+    display: inline;
+}
+div#div3 {
+    background-color: aqua;
+    display: inline;
+}
+span#span3 {
+    background-color: rgb(198, 137, 255);
+    display: inline;
+}
+p#id6 {
+    background-color: rgb(255, 80, 80);
+    display: inline;
+}
+span#un3 {
+    background-color: rgb(255, 251, 0);
+    display: inline;
+}
+
+/*INLINE-BLOCK*/
+h2#h3 {
+    background-color: pink;
+    display: inline-block;
+}
+#id7 {
+    background-color: rgb(179, 255, 0);
+    display: inline-block;
+}
+div#div4 {
+    background-color: aqua;
+    display: inline-block;
+}
+span#span4 {
+    background-color: rgb(198, 137, 255);
+    display: inline-block;
+}
+p#id8 {
+    background-color: rgb(255, 80, 80);
+    display: inline-block;
+}
+span#un4 {
+    background-color: rgb(255, 251, 0);
+    display: inline-block;
+}
