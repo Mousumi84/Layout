@@ -1,0 +1,141 @@
+p {
+    font-size: 70px;
+}
+.fb {
+    border: 2px solid black;
+    display: flex;
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+}
+
+/*COLUMN CELLS*/
+.cl1 {
+    background-color: rgb(255, 251, 0);
+}
+.cl2 {
+    background-color: rgb(255, 0, 0);
+}
+.cl3 {
+    background-color: rgb(0, 255, 42);
+}
+.cl4 {
+    background-color: rgb(0, 26, 255);
+}
+.cl5 {
+    background-color: rgb(255, 0, 191);
+}
+.cl6 {
+    background-color: rgb(0, 255, 255);
+}
+.cl7 {
+    background-color: rgb(255, 136, 0);
+}
+.cl8 {
+    background-color: rgb(111, 0, 255);
+}
+
+.column {
+    height: 1200px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column.wrap {
+    height:500px;
+}
+
+.revwrap {
+    flex-wrap: wrap-reverse;
+}
+
+.column.revwrap {
+    height:500px;
+}
+
+
+.flexbox1 {
+    flex-direction: column;
+}
+
+.flexbox2 {
+    flex-direction: row;
+}
+
+.flexbox3 {
+    flex-direction: column-reverse;
+}
+
+.flexbox4 {
+    flex-direction: row-reverse;
+}
+
+
+
+
+/*JUSTIFY CONTENT  COLUMN*/
+.flexbox5 {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flexbox6 {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.flexbox7 {
+    flex-direction: column;
+    justify-content: stretch;
+}
+.flexbox8 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexbox9 {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexbox10 {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.flexbox11 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*  JUSTIFY- CONTENT  ROW*/
+.flexbox12 {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flexbox13 {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.flexbox14 {
+    flex-direction: row;
+    justify-content: stretch;
+}
+.flexbox15 {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexbox16 {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexbox17 {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flexbox18 {
+    flex-direction: row;
+    justify-content: center;
+}
