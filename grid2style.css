@@ -1,0 +1,60 @@
+#grid1 {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+
+    /*LAYOUT-1 */
+    grid-template-areas: 'A A A'
+                         'B C D'
+                         'B E E';                    
+    
+}
+
+/*GRID ITEMS*/
+.c1 {
+    background-color: orangered;
+    grid-area: A;
+}
+.c2 {
+    background-color: yellow;
+    grid-area: B;
+}
+.c3 {
+    background-color: green;
+    grid-area: C;
+}
+.c4 {
+    background-color: blue;
+    grid-area: D;
+}
+.c5 {
+    background-color: blueviolet;
+    grid-area: E;
+}
+
+
+#grid2 {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+}
+    /*LAYOUT-2 */                 
+
+/*GRID ITEMS*/
+#it1 {
+    grid-area: 1/1/2/4;
+}
+#it2 {
+    grid-area: 2/1/4/2;
+}
+#it3 {
+    grid-area: 2/2/3/3;
+}
+#it4 {
+    grid-area: 2/3/3/4;
+}
+#it5 {
+    grid-area: 3/2/4/4;
+}
